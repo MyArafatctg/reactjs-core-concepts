@@ -21,7 +21,7 @@ function LoadCountries(){
     ) 
     return(
       <div>
-        <h1>Load every country in the world</h1>
+        <h1>ALL COUNTRY IN THE WORLD</h1>
         <h3>Total Countries : {countrys.length}</h3>
         <div className="grid-container">
         {
