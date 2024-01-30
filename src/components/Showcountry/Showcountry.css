@@ -1,0 +1,9 @@
+.cnt-div{
+    background-color: burlywood;
+    border: 5px solid purple;
+    margin: 20px;
+    border-radius: 30px;
+}
+.cnt-div img{
+    margin: 10px;
+}
