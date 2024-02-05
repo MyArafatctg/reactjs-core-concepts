@@ -1,0 +1,19 @@
+.header-contaier{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    margin-right: 40px;
+    margin-left: auto;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+.header-contaier img{
+    margin-left: 40px;
+}
