@@ -13,3 +13,6 @@
     height: 1000px;
     align-items: center;
 }
+.order-link{
+    text-decoration: none;
+}

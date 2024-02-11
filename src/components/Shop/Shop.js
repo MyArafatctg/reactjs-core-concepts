@@ -3,6 +3,8 @@ import './Shop.css'
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
 import { addToDb, getShoppingCart } from '../utilities/fakedb';
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
@@ -46,7 +48,14 @@ const Shop = () => {
                 addToCart = {addToCart}
                 ></Product>)}
             </div>
-            <Cart cart={cart}></Cart>
+            <Cart cart={cart}>
+            <Link className='order-link' to="/orders">
+            <button className='review'>
+                    <span>Review Order</span>
+                    <ArrowRightIcon className='btnTrash'></ArrowRightIcon>
+            </button>
+            </Link>
+            </Cart>
         </div>
     );
 };

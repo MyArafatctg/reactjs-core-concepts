@@ -1,3 +1,6 @@
 .CheckOut-container{
     margin: 50px auto;
 }
+.payment-link{
+    text-decoration: none;
+}
