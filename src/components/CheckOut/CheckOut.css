@@ -1,0 +1,34 @@
+.CheckItem{
+    width: 570px;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 91px;
+    height: 91px;
+    border-radius: 8px;
+}
+.dtlIcon{
+    background-color: rgb(244, 183, 148);
+    color: rgb(239, 48, 48);
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.itemInfo{
+    flex-grow: 1;
+    margin-left: 25px;
+}
+.itemInfo p{
+    margin: 0 0 5px 0;
+}
+.item-title{
+    font-size: 16px;
+    font-weight: bold;
+}
